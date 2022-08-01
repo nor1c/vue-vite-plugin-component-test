@@ -1,9 +1,8 @@
 {
   "name": "@nor1c/my-input",
-  "private": true,
   "version": "0.0.0",
-  "type": "module",
-  "main": "./dist/my-input.umd.cs",
+  "files": ["dist"],
+  "main": "./dist/my-input.umd.js",
   "module": "./dist/my-input.es.js",
   "exports": {
     ".": {
