@@ -5,5 +5,5 @@
 </template>
 
 <script setup>
-import MyInput from '@nor1c/my-input'
+import MyInput from '../../dist/my-input.es'
 </script>

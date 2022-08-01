@@ -11,7 +11,7 @@ defineProps ({
     type: String,
     default: 'text'
   },
-  plceholder: {
+  placeholder: {
     type: String,
     default: ''
   }
