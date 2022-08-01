@@ -9,7 +9,7 @@
 
 "@nor1c/my-input@https://github.com/nor1c/vue-vite-plugin-component-test":
   version "0.0.0"
-  resolved "https://github.com/nor1c/vue-vite-plugin-component-test#734e28ed7028a9d6911a2a24b30165bd3522ec12"
+  resolved "https://github.com/nor1c/vue-vite-plugin-component-test#34b8388e724fd45a9f5d972dd99420af696c2ef1"
   dependencies:
     vue "^3.2.37"
 

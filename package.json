@@ -4,10 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "main": "./dist/my-input.umd.cjs",
-  "module": "./dist/my-input.js",
+  "module": "./dist/my-input.es.js",
   "exports": {
     ".": {
-      "import": "./dist/my-input.js",
+      "import": "./dist/my-input.es.js",
       "require": "./dist/my-input.umd.cjs"
     }
   },
