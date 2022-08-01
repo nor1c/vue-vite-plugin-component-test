@@ -1,5 +1,5 @@
-import { openBlock as t, createElementBlock as n } from "vue";
-const l = ["type", "placeholder"], p = {
+import { openBlock as t, createElementBlock as n, createElementVNode as l, createTextVNode as o } from "vue";
+const p = /* @__PURE__ */ o(" input plugin "), c = ["type", "placeholder"], a = {
   __name: "MyInput",
   props: {
     type: {
@@ -12,16 +12,19 @@ const l = ["type", "placeholder"], p = {
     }
   },
   setup(e) {
-    return (o, c) => (t(), n("input", {
-      type: e.type,
-      placeholder: e.placeholder
-    }, null, 8, l));
+    return (r, i) => (t(), n("div", null, [
+      p,
+      l("input", {
+        type: e.type,
+        placeholder: e.placeholder
+      }, null, 8, c)
+    ]));
   }
-}, r = {
+}, d = {
   install: (e) => {
-    e.component("my-input", p);
+    e.component("my-input", a);
   }
 };
 export {
-  r as default
+  d as default
 };
