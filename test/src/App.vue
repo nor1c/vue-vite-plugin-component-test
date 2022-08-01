@@ -5,8 +5,5 @@
 </template>
 
 <script setup>
-import Vue from 'vue'
-import MyInput from '../../dist/my-input.es'
-
-Vue.use(MyInput)
+import MyInput from 'vue-vite-plugin-component'
 </script>

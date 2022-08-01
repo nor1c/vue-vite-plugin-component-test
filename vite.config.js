@@ -4,6 +4,7 @@ import vue from '@vitejs/plugin-vue'
 
 export default defineConfig({
   build: {
+    outDir: 'dist',
     lib: {
       entry: resolve(__dirname, 'lib/plugin.js'),
       name: 'MyInput',
