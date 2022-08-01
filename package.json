@@ -3,12 +3,12 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "main": "./dist/my-input.umd.cjs",
+  "main": "./dist/my-input.umd.cs",
   "module": "./dist/my-input.es.js",
   "exports": {
     ".": {
       "import": "./dist/my-input.es.js",
-      "require": "./dist/my-input.umd.cjs"
+      "require": "./dist/my-input.umd.js"
     }
   },
   "scripts": {

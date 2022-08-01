@@ -1,34 +1,27 @@
-import { openBlock as n, createElementBlock as p } from "vue";
-const o = ["type", "placeholder"], a = {
+import { openBlock as t, createElementBlock as l } from "vue";
+const n = ["type", "placeholder"], p = {
   __name: "MyInput",
   props: {
     type: {
       type: String,
       default: "text"
     },
-    plceholder: {
+    placeholder: {
       type: String,
       default: ""
     }
   },
-  setup(t) {
-    return (e, c) => (n(), p("input", {
-      type: t.type,
+  setup(e) {
+    return (o, c) => (t(), l("input", {
+      type: e.type,
       placeholder: e.placeholder
-    }, null, 8, o));
+    }, null, 8, n));
   }
-}, l = {
-  install: (t) => {
-    t.component("my-input", a);
-  }
-}, s = {
-  install: (t) => {
-    var e;
-    (e = l.install) == null || e.call(l, t);
+}, a = {
+  install: (e) => {
+    e.component("my-input", p);
   }
 };
 export {
-  a as MyInput,
-  l as MyInputPlugin,
-  s as default
+  a as default
 };
