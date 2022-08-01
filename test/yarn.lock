@@ -7,6 +7,12 @@
   resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.18.9.tgz#f2dde0c682ccc264a9a8595efd030a5cc8fd2539"
   integrity sha512-9uJveS9eY9DJ0t64YbIBZICtJy8a5QrDEVdiLCG97fVLpDTpGX7t8mMSb6OWw6Lrnjqj4O8zwjELX3dhoMgiBg==
 
+"@nor1c/my-input@https://github.com/nor1c/vue-vite-plugin-component-test":
+  version "0.0.0"
+  resolved "https://github.com/nor1c/vue-vite-plugin-component-test#734e28ed7028a9d6911a2a24b30165bd3522ec12"
+  dependencies:
+    vue "^3.2.37"
+
 "@vitejs/plugin-vue@^3.0.0":
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/@vitejs/plugin-vue/-/plugin-vue-3.0.1.tgz#b6af8f782485374bbb5fe09edf067a845bf4caae"
@@ -340,12 +346,6 @@ vite@^3.0.0:
     rollup "^2.75.6"
   optionalDependencies:
     fsevents "~2.3.2"
-
-"vue-vite-plugin-component@https://github.com/nor1c/vue-vite-plugin-component-test":
-  version "0.0.0"
-  resolved "https://github.com/nor1c/vue-vite-plugin-component-test#7212ff506fb7ad7d892b53fcf8c095791e0ac7f3"
-  dependencies:
-    vue "^3.2.37"
 
 vue@^3.2.37:
   version "3.2.37"

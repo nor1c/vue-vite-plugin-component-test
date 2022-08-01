@@ -9,8 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.2.37",
-    "vue-vite-plugin-component": "https://github.com/nor1c/vue-vite-plugin-component-test"
+    "@nor1c/my-input": "https://github.com/nor1c/vue-vite-plugin-component-test",
+    "vue": "^3.2.37"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^3.0.0",

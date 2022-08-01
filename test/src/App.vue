@@ -5,5 +5,5 @@
 </template>
 
 <script setup>
-import MyInput from 'vue-vite-plugin-component'
+import MyInput from '@nor1c/my-input'
 </script>
