@@ -1,0 +1,26 @@
+{
+  "name": "vue-vite-plugin-component",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "main": "./dist/my-input.umd.cjs",
+  "module": "./dist/my-input.js",
+  "exports": {
+    ".": {
+      "import": "./dist/my-input.js",
+      "require": "./dist/my-input.umd.cjs"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.2.37"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.0.0",
+    "vite": "^3.0.0"
+  }
+}
