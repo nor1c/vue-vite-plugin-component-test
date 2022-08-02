@@ -8,8 +8,6 @@
 </template>
 
 <script setup>
-import { ref, watch } from 'vue';
-
 defineEmits([
   'update:modelValue'
 ])
