@@ -1,11 +1,8 @@
 <template>
-  <div>
-    input plugin
-    <input
-      :type="type"
-      :placeholder="placeholder"
-    >
-  </div>
+  <input
+    :type="type"
+    :placeholder="placeholder"
+  >
 </template>
 
 <script setup>

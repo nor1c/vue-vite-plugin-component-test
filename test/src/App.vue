@@ -1,11 +1,15 @@
 <template>
-  <div>
-    <MyInput 
-      :placeholder="'Enter your name'"
-    />
-  </div>
+  <MyInput 
+    v-model="test"
+    :placeholder="'Enter your name'"
+  />
+
+  {{ test }}
 </template>
 
 <script setup>
-import MyInput from '../../dist/my-input.es'
+import { ref } from 'vue'
+import { MyInput } from '../../dist/my-input.es'
+
+const test = ref('')
 </script>

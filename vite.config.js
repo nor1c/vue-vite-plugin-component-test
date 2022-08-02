@@ -6,7 +6,7 @@ export default defineConfig({
   build: {
     outDir: 'dist',
     lib: {
-      entry: resolve(__dirname, 'lib/main.js'),
+      entry: resolve(__dirname, './lib/install.ts'),
       name: 'MyInput',
       fileName: (format) => `my-input.${format}.js`
     },
