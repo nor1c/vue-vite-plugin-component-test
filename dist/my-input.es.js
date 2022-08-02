@@ -1,5 +1,5 @@
-import { openBlock as e, createElementBlock as l } from "vue";
-const n = ["type", "placeholder"], p = {
+import { openBlock as n, createElementBlock as u } from "vue";
+const p = ["type", "placeholder", "value"], o = {
   __name: "MyInput",
   props: {
     type: {
@@ -9,20 +9,29 @@ const n = ["type", "placeholder"], p = {
     placeholder: {
       type: String,
       default: ""
+    },
+    modelValue: {
+      type: String,
+      default: ""
     }
   },
-  setup(t) {
-    return (o, a) => (e(), l("input", {
-      type: t.type,
-      placeholder: t.placeholder
-    }, null, 8, n));
+  emits: [
+    "update:modelValue"
+  ],
+  setup(e) {
+    return (l, t) => (n(), u("input", {
+      type: e.type,
+      placeholder: e.placeholder,
+      value: e.modelValue,
+      onInput: t[0] || (t[0] = (a) => l.$emit("update:modelValue", a.target.value))
+    }, null, 40, p));
   }
 }, r = {
-  install: (t) => {
-    t.component("MyInput", p);
+  install: (e) => {
+    e.component("MyInput", o);
   }
 };
 export {
-  p as MyInput,
+  o as MyInput,
   r as default
 };
